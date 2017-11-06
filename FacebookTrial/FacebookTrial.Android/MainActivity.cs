@@ -19,7 +19,6 @@ namespace FacebookTrial.Droid
     public class MainActivity : global::Xamarin.Forms.Platform.Android.FormsAppCompatActivity , IFacebookCallback
         , GraphRequest.ICallback
     {
-        FacebookSDK facebookSdk;
         
         private ICallbackManager mFBCallManager;
         private IFacebookCallback mFBCallBack;

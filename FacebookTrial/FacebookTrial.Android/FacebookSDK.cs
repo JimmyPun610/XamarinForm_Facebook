@@ -33,9 +33,6 @@ namespace FacebookTrial.Droid
             param.PutBoolean("redirect", false);
             new GraphRequest(AccessToken.CurrentAccessToken, string.Format("me/picture"), param, HttpMethod.Get, (MainActivity)Forms.Context).ExecuteAsync();
         }
-
-
-
         class CustomProfileTracker : ProfileTracker
         {
             public delegate void CurrentProfileChangedDelegate(Profile oldProfile, Profile currentProfile);
