@@ -154,7 +154,7 @@ https://components.xamarin.com/view/facebookios
 ```C#
          Facebook.CoreKit.ApplicationDelegate.SharedInstance.Init();
             Facebook.CoreKit.ApplicationDelegate.SharedInstance.FinishedLaunching(app, options);
-            ```
+```
 - Add this code the AppDelegate.cs
 ```C#
   public override bool OpenUrl(UIApplication application, NSUrl url, string sourceApplication, NSObject annotation)
@@ -162,4 +162,4 @@ https://components.xamarin.com/view/facebookios
             bool handled = Facebook.CoreKit.ApplicationDelegate.SharedInstance.OpenUrl(application, url, sourceApplication, annotation);
             return handled;
         }
-        ```
+```
