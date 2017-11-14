@@ -140,12 +140,12 @@ https://components.xamarin.com/view/facebookios
       <dict>
         <key>CFBundleURLSchemes</key>
         <array>
-          <string>fb126565711366771</string>
+          <string>fb[facebook app id]</string>
         </array>
       </dict>
     </array>
     <key>FacebookAppID</key>
-    <string>126565711366771</string>
+    <string>[facebook app id]</string>
     <key>FacebookDisplayName</key>
     <string>APPNAME</string>
 ```
